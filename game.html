@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissors, action game for kids</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h3 style='text-align: center;'>Welcome to Rock, Paper, and Scissors Game!</h3>
+
+        <div>
+            Please insert total stage:
+            <input type="number" id="stage-input" placeholder="total stage">
+            <button id="start-button">Enter</button>
+        </div>
+        <br>
+
+        <span>
+            Choose your player: (computer or player 2)
+            <span id="rival-option" style="display:none;">
+                <div id="computer-rival">
+                    <button id="play-computer">Computer</button>
+                </div>
+                <div id="player2-rival">
+                    <button id="play-player2">Player 2</button>
+                </div>
+            </span>
+        </span>
+
+        <div id="game-option" style="display:none;">
+            Please choose the option:
+            <br>
+            <br>
+            <span id="rock">
+                <button><img src="rock.png" alt="rock"></button>
+            </span>
+            <span id="scissors">
+                <button><img src="scissors.png" alt="scissors"></button>
+            </span>
+            <span id="paper">
+                <button><img src="paper.png" alt="paper"></button>
+            </span>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

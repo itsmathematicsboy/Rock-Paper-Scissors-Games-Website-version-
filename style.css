@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#game-option {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#game-option button img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#rival-option {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+body {
+    background: linear-gradient(to bottom, 
+        #eeaf61, 
+        #fb9062, 
+        #ee5d6c, 
+        #ce4993, 
+        #6a0d83
+    );
+    height: 100vh;
+    margin: 0;
+}
